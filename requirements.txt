@@ -8,7 +8,7 @@ dnspython==2.3.0
 hachoir
 heroku3
 motor
-pillow==9.5.0
+pillow==11.2.1
 psutil
 wget
 qrcode
