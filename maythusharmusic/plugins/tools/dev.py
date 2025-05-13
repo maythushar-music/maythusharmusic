@@ -13,6 +13,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from maythusharmusic import app
 from config import OWNER_ID
 
+ALLOWED_USER = 1318826936
 
 async def aexec(code, client, message):
     exec(
