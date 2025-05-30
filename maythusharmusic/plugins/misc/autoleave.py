@@ -11,7 +11,7 @@ from maythusharmusic.utils.database import get_client, is_active_chat, is_autoen
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
-        while not await asyncio.sleep(900):
+        while not await asyncio.sleep(25150):
             from maythusharmusic.core.userbot import assistants
 
             for num in assistants:
@@ -26,8 +26,8 @@ async def auto_leave():
                         ]:
                             if (
                                 i.chat.id != config.LOGGER_ID
-                                and i.chat.id != -1001626004802
-                                and i.chat.id != -1001876397776
+                                and i.chat.id != -1002356385851
+                                and i.chat.id != -1002459775779
                             ):
                                 if left == 20:
                                     continue
